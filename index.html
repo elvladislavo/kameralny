@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+  ===========================================================================
+  Domena: kameralnybarbershop.pl — ustawiona w canonical, og:url, JSON-LD
+  i sitemap.xml. Przy zmianie domeny podmień ją w tych 4 miejscach.
+
+  DO ZROBIENIA PRZED STARTEM:
+  1. og-cover.jpg — w repo jest wersja zastępcza (sam logotyp). Podmień ją na
+     prawdziwe zdjęcie wnętrza lub ekipy, 1200x630 px. To obrazek, który widać
+     przy wklejaniu linku na FB / IG / WhatsApp.
+  2. Sobota 09:00-15:00 — Google i Booksy pokazują 09:00-17:00. Zweryfikuj
+     i ujednolić TU, w JSON-LD wyżej ORAZ w wizytówce Google.
+
+  Numer telefonu nie jest pokazywany na stronie (rezerwacje idą przez Booksy),
+  ale zostaje w JSON-LD "telephone" — to pomaga Google powiązać stronę
+  z wizytówką firmy. Usuń go tam tylko, jeśli numer ma zniknąć całkowicie.
+  ===========================================================================
+-->
+
+<title>Barber Poznań Piątkowo — Kameralny Barbershop (dawniej Bishop)</title>
+<meta name="description" content="Kameralny Barbershop (dawniej Bishop) — barber Poznań Piątkowo, ul. Braille'a 2. Strzyżenie, broda, golenie brzytwą.">
+<link rel="canonical" href="https://kameralnybarbershop.pl/">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#0A0A0A">
+
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Kameralny Barbershop">
+<meta property="og:type" content="business.business">
+<meta property="og:url" content="https://kameralnybarbershop.pl/">
+<meta property="og:title" content="Barber Poznań Piątkowo — Kameralny Barbershop (dawniej Bishop)">
+<meta property="og:description" content="Strzyżenie, broda i golenie brzytwą na Piątkowie. Doświadczona ekipa, darmowy napój, rezerwacja online w kilka sekund.">
+<meta property="og:image" content="https://kameralnybarbershop.pl/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Wnętrze Kameralny Barbershop w Poznaniu">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Barber Poznań Piątkowo — Kameralny Barbershop">
+<meta name="twitter:description" content="Strzyżenie, broda i golenie brzytwą na Piątkowie. Rezerwacja online.">
+<meta name="twitter:image" content="https://kameralnybarbershop.pl/og-cover.jpg">
+
+<meta name="geo.region" content="PL-WP">
+<meta name="geo.placename" content="Poznań">
+<meta name="geo.position" content="52.4578688;16.9187696">
+<meta name="ICBM" content="52.4578688, 16.9187696">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23D7FF1E'/%3E%3Ctext x='50' y='62' font-family='Arial Black' font-size='40' font-weight='900' text-anchor='middle' fill='%230A0A0A'%3EK4%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Archivo:wght@400;700&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HairSalon",
+      "@id": "https://kameralnybarbershop.pl/#business",
+      "name": "Kameralny Barbershop",
+      "alternateName": ["KAMERALNY Barbershop (Dawniej Bishop)", "Bishop Barber Shop", "KMRLNY"],
+      "description": "Barbershop na poznańskim Piątkowie. Strzyżenie włosów, modelowanie i strzyżenie brody, golenie brzytwą, buzz cut, strzyżenie dziecięce. Wizyty po wcześniejszej rezerwacji online.",
+      "url": "https://kameralnybarbershop.pl/",
+      "image": "https://kameralnybarbershop.pl/og-cover.jpg",
+      "telephone": "+48733017603",
+      "priceRange": "$$",
+      "currenciesAccepted": "PLN",
+      "paymentAccepted": "Gotówka, Karta płatnicza",
+      "foundingDate": "2017",
+      "legalName": "Boki Krótko Góra Długo — Marcin Rzetelski",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Ludwika Braille'a 2, lok. 210",
+        "addressLocality": "Poznań",
+        "addressRegion": "wielkopolskie",
+        "postalCode": "60-687",
+        "addressCountry": "PL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.4578688,
+        "longitude": 16.9187696
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=52.4578688,16.9187696",
+      "areaServed": [
+        { "@type": "City", "name": "Poznań" },
+        { "@type": "Place", "name": "Piątkowo" },
+        { "@type": "Place", "name": "Osiedle Batorego" },
+        { "@type": "Place", "name": "Winogrady" }
+      ],
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "20:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "15:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday","Monday"], "opens": "00:00", "closes": "00:00" }
+      ],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Parking", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Płatność kartą", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Dostępne dla osób z niepełnosprawnościami", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Zwierzęta dozwolone", "value": true }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/kameralnybarbershop/",
+        "https://www.facebook.com/barbershopbishop/",
+        "https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan"
+      ],
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan",
+          "inLanguage": "pl-PL",
+          "actionPlatform": ["https://schema.org/DesktopWebPlatform","https://schema.org/MobileWebPlatform"]
+        },
+        "result": { "@type": "Reservation", "name": "Rezerwacja wizyty" }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Usługi barberskie",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie krótkich włosów" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie średniej długości włosów" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie długich włosów" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Buzz cut / golenie głowy" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie dziecięce" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie brody" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie brody + pigmentacja" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Komplet: krótkie włosy + broda" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Komplet + pigmentacja brody" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Buzz cut / golenie głowy + broda" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie średniej długości włosów + broda" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strzyżenie długich włosów + broda" } }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kameralnybarbershop.pl/#website",
+      "url": "https://kameralnybarbershop.pl/",
+      "name": "Kameralny Barbershop",
+      "inLanguage": "pl-PL",
+      "publisher": { "@id": "https://kameralnybarbershop.pl/#business" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kameralnybarbershop.pl/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Czy muszę się umawiać, czy mogę przyjść bez rezerwacji?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Wyłącznie po wcześniejszej rezerwacji — online przez Booksy." }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje strzyżenie w Kameralnym Barbershopie?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Aktualny cennik wszystkich usług znajdziesz przy rezerwacji na Booksy. Ceny bywają różne w zależności od barbera, dlatego trzymamy je w jednym miejscu — zawsze aktualne." }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdzie dokładnie jesteście i czy jest parking?",
+          "acceptedAnswer": { "@type": "Answer", "text": "ul. Ludwika Braille'a 2, lok. 210, 60-687 Poznań — Piątkowo, w okolicy Osiedla Batorego. Wejście od strony parkingu. Na miejscu parking, Wi-Fi i płatność kartą; lokal dostosowany dla osób z niepełnosprawnościami." }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy strzyżecie dzieci?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tak — strzyżenie dziecięce dla dzieci w wieku 4–13 lat, około 40 minut." }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy można przyjść z psem?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tak, zwierzęta są u nas mile widziane." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#top">Przejdź do treści</a>
+
+<header id="site-header">
+  <div class="wrap nav">
+    <a href="#top" class="logo-mark" aria-label="Kameralny Barbershop — strona główna"><span>KMRLNY</span></a>
+    <nav class="links" aria-label="Nawigacja główna">
+      <a href="#about">O nas</a>
+      <a href="#services">Usługi</a>
+      <a href="#booking">Rezerwacja</a>
+      <a href="#faq">FAQ</a>
+      <a href="#location">Lokalizacja</a>
+    </nav>
+    <a class="btn btn-fill nav-cta" href="https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan#ba_s=seo" target="_blank" rel="noopener">Zarezerwuj</a>
+    <button class="burger" id="burgerBtn" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">O nas</a>
+  <a href="#services">Usługi</a>
+  <a href="#booking">Rezerwacja</a>
+  <a href="#faq">FAQ</a>
+  <a href="#location">Lokalizacja</a>
+  <a class="btn btn-fill" style="margin-top:10px;" href="https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan#ba_s=seo" target="_blank" rel="noopener">Zarezerwuj</a>
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Barbershop · Poznań · Piątkowo</p>
+        <h1 class="hero-word">
+          <span class="sr-only">Kameralny Barbershop — barber w Poznaniu na Piątkowie</span>
+          <span aria-hidden="true">KMRLN<span class="accent">Y</span></span>
+        </h1>
+        <p class="hero-sub"><strong>Kameralny Barbershop</strong> — strzyżenie, broda i golenie brzytwą na Piątkowie.</p>
+        <div class="hero-cta">
+          <a class="btn btn-fill" href="https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan#ba_s=seo" target="_blank" rel="noopener">Zarezerwuj wizytę</a>
+          <a class="btn btn-ghost" href="#services">Zobacz usługi</a>
+        </div>
+        <div class="hero-meta">
+          <div><p>Adres</p><p>ul. Ludwika Braille'a 2, Poznań</p></div>
+          <div><p>Dzielnica</p><p>Piątkowo</p></div>
+          <div><p>Rezerwacja</p><p>Booksy</p></div>
+        </div>
+      </div>
+      <div class="hero-badge-col">
+        <div class="stamp" id="stamp1"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="tickerTrack">
+      <span>KAMERALNY BARBERSHOP</span><span>POZNAŃ · PIĄTKOWO</span><span>STRZYŻENIE · BRODA · GOLENIE</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-text reveal">
+        <p class="eyebrow">O nas</p>
+        <h2>Kameralnie<br>znaczy szczerze.</h2>
+        <p><strong>Kameralny Barbershop</strong> tnie na poznańskim Piątkowie <strong>od 2017 roku</strong> (wcześniej jako Bishop Barbershop).</p>
+        <p>Doświadczony zespół, dobra muzyka i darmowe napoje — u nas czekanie na fotel bywa najlepszą częścią wizyty. Rezerwacje przez <strong>Booksy</strong>, w kilka sekund.</p>
+        <div class="about-tags">
+          <span class="tag">Strzyżenie</span>
+          <span class="tag">Broda</span>
+          <span class="tag">Golenie brzytwą</span>
+          <span class="tag">Pigmentacja brody</span>
+          <span class="tag">Strzyżenie dziecięce</span>
+          <span class="tag">Darmowy napój</span>
+        </div>
+        <ul class="amenities">
+          <li>Parking przy lokalu</li>
+          <li>Płatność kartą</li>
+          <li>Wi-Fi</li>
+          <li>Dostęp dla osób z niepełnosprawnościami</li>
+          <li>Zwierzęta mile widziane</li>
+        </ul>
+      </div>
+      <div class="about-stamp-col reveal">
+        <div class="stamp" id="stamp2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Usługi</h2>
+        <p>Strzyżenie, broda i golenie brzytwą. Aktualny cennik i wolne terminy sprawdzisz na Booksy.</p>
+      </div>
+
+      <ul class="svc-list reveal">
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie krótkich włosów</span><span class="svc-item-dots"></span><span class="svc-item-time">50 min</span></div>
+          <p class="svc-item-desc">Profesjonalne cięcie z myciem głowy na życzenie.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie średniej długości włosów</span><span class="svc-item-dots"></span><span class="svc-item-time">1 g</span></div>
+          <p class="svc-item-desc">Edgar, mullet, long trim, mod cut — głównie nożyczkami.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie długich włosów</span><span class="svc-item-dots"></span><span class="svc-item-time">1 g 15 min</span></div>
+          <p class="svc-item-desc">Cięcie nożyczkami: lekkość i kształt dopasowany do Ciebie.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Buzz cut / golenie głowy</span><span class="svc-item-dots"></span><span class="svc-item-time">40 min</span></div>
+          <p class="svc-item-desc">Wyłącznie maszynką — szybko i równomiernie.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie dziecięce</span><span class="svc-item-dots"></span><span class="svc-item-time">40 min</span></div>
+          <p class="svc-item-desc">Dla dzieci w wieku 4–13 lat, spokojnie i bez pośpiechu.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie brody</span><span class="svc-item-dots"></span><span class="svc-item-time">35 min</span></div>
+          <p class="svc-item-desc">Precyzyjne strzyżenie i stylizacja pod kształt twarzy.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie brody + pigmentacja</span><span class="svc-item-dots"></span><span class="svc-item-time">50 min</span></div>
+          <p class="svc-item-desc">Strzyżenie, pigmentacja i stylizacja zarostu.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Komplet: krótkie włosy + broda</span><span class="svc-item-dots"></span><span class="svc-item-time">1 g 15 min</span></div>
+          <p class="svc-item-desc">Strzyżenie i modelowanie brody z pielęgnacją zarostu.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Komplet + pigmentacja brody</span><span class="svc-item-dots"></span><span class="svc-item-time">1 g 30 min</span></div>
+          <p class="svc-item-desc">Pełny pakiet: włosy, broda i pigmentacja.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Buzz cut / golenie głowy + broda</span><span class="svc-item-dots"></span><span class="svc-item-time">1 g 10 min</span></div>
+          <p class="svc-item-desc">Cięcie maszynką w duecie ze strzyżeniem brody.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie średniej długości włosów + broda</span><span class="svc-item-dots"></span><span class="svc-item-time">1 g 30 min</span></div>
+          <p class="svc-item-desc">Włosy średniej długości w komplecie z brodą.</p>
+        </li>
+        <li class="svc-item">
+          <div class="svc-item-main"><span class="svc-item-name">Strzyżenie długich włosów + broda</span><span class="svc-item-dots"></span><span class="svc-item-time">1 g 40 min</span></div>
+          <p class="svc-item-desc">Długie włosy i precyzyjne modelowanie brody.</p>
+        </li>
+      </ul>
+
+      <div class="svc-cta reveal">
+        <a class="btn btn-fill" href="https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan#ba_s=seo" target="_blank" rel="noopener">Umów wizytę na Booksy →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOKING ============ -->
+  <section class="booking" id="booking">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Rezerwacja</p>
+        <h2>Umów wizytę</h2>
+        <p>Wizyty tylko po wcześniejszej rezerwacji online.</p>
+      </div>
+      <div class="book-cards reveal">
+        <div class="book-card">
+          <div>
+            <h3>Booksy</h3>
+            <p>Wolne terminy w czasie rzeczywistym.</p>
+          </div>
+          <a class="btn btn-fill" href="https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan#ba_s=seo" target="_blank" rel="noopener">Rezerwuj na Booksy →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2>Częste pytania</h2>
+      </div>
+      <div class="faq-list reveal">
+
+        <details class="faq-item">
+          <summary><h3>Czy muszę się umawiać, czy mogę przyjść bez rezerwacji?</h3></summary>
+          <p>Wyłącznie po wcześniejszej rezerwacji — online przez Booksy.</p>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Ile kosztuje strzyżenie w Kameralnym Barbershopie?</h3></summary>
+          <p>Aktualny cennik wszystkich usług znajdziesz przy rezerwacji na Booksy. Ceny bywają różne w zależności od barbera, dlatego trzymamy je w jednym miejscu — zawsze aktualne.</p>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Gdzie dokładnie jesteście i czy jest parking?</h3></summary>
+          <p>ul. Ludwika Braille'a 2, lok. 210, 60-687 Poznań — Piątkowo, w okolicy Osiedla Batorego. Wejście od strony parkingu. Na miejscu parking, Wi-Fi i płatność kartą; lokal dostosowany dla osób z niepełnosprawnościami.</p>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Czy strzyżecie dzieci?</h3></summary>
+          <p>Tak — strzyżenie dziecięce dla dzieci w wieku 4–13 lat, około 40 minut.</p>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Czy można przyjść z psem?</h3></summary>
+          <p>Tak, zwierzęta są u nas mile widziane.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION ============ -->
+  <section class="location" id="location">
+    <div class="wrap loc-grid">
+      <div class="loc-map reveal">
+        <iframe title="Mapa dojazdu — Kameralny Barbershop, ul. Ludwika Braille'a 2, Poznań" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=ul.+Ludwika+Braille'a+2,+60-687+Pozna%C5%84&amp;output=embed"></iframe>
+      </div>
+      <div class="loc-info reveal">
+        <p class="eyebrow">Lokalizacja</p>
+        <h2>Znajdź nas</h2>
+        <dl>
+          <dt>Adres</dt>
+          <dd>ul. Ludwika Braille'a 2, lok. 210<br>60-687 Poznań (Piątkowo)</dd>
+          <dt>Dawna nazwa</dt>
+          <dd>Bishop Barber Shop</dd>
+          <dt>Social</dt>
+          <dd><a href="https://www.instagram.com/kameralnybarbershop/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/barbershopbishop/" target="_blank" rel="noopener">Facebook</a></dd>
+        </dl>
+        <!-- UWAGA: Google i Booksy podają sobotę 09:00-17:00. Zweryfikuj i ujednolić tu + w JSON-LD. -->
+        <div class="hours">
+          <div class="hours-row"><span>Poniedziałek</span><span>Zamknięte</span></div>
+          <div class="hours-row"><span>Wtorek</span><span>10:00 – 20:00</span></div>
+          <div class="hours-row"><span>Środa</span><span>10:00 – 20:00</span></div>
+          <div class="hours-row"><span>Czwartek</span><span>10:00 – 20:00</span></div>
+          <div class="hours-row"><span>Piątek</span><span>10:00 – 20:00</span></div>
+          <div class="hours-row"><span>Sobota</span><span>09:00 – 15:00</span></div>
+          <div class="hours-row"><span>Niedziela</span><span>Zamknięte</span></div>
+        </div>
+        <p class="loc-note">* Wizyty tylko po wcześniejszej rezerwacji.</p>
+        <p class="loc-note loc-note-dim">Dane biznesu: Boki Krótko Góra Długo — Marcin Rzetelski</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="stamp" id="stamp3"></div>
+        <div class="foot-word"><span>KMRLNY</span></div>
+      </div>
+      <div class="foot-links">
+        <div class="foot-col">
+          <h4>Nawigacja</h4>
+          <a href="#about">O nas</a>
+          <a href="#services">Usługi</a>
+          <a href="#faq">FAQ</a>
+          <a href="#location">Lokalizacja</a>
+        </div>
+        <div class="foot-col">
+          <h4>Rezerwacja</h4>
+          <a href="https://booksy.com/pl-pl/22251_kameralny-barbershop-dawniej-bishop_barber-shop_15608_poznan#ba_s=seo" target="_blank" rel="noopener">Booksy</a>
+        </div>
+        <div class="foot-col">
+          <h4>Social</h4>
+          <a href="https://www.instagram.com/kameralnybarbershop/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/barbershopbishop/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+        <div class="foot-col">
+          <h4>Adres</h4>
+          <p>ul. Ludwika Braille'a 2, lok. 210<br>60-687 Poznań, Piątkowo</p>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Kameralny Barbershop — dawniej Bishop</span>
+      <span>Poznań, Piątkowo</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
