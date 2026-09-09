@@ -347,3 +347,14 @@ footer{background:var(--charcoal-2); border-top:1px solid var(--line-soft); padd
 
 /* A lone booking card shouldn't sit in a half-width column */
 .book-card:only-child{grid-column:1 / -1; width:100%; max-width:520px; margin:0;}
+
+.foot-credit {
+  color: var(--bone);
+}
+
+.foot-credit:hover,
+.foot-credit:focus-visible {
+  color: var(--lime);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
